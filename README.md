@@ -14,20 +14,26 @@ Features:
     Caching: Redis caching mechanism for optimized performance.
     Admin Interface: An intuitive admin panel for managing FAQs and their translations.
 
-Steps to run:< br / >
+Steps to run:
 
-1.Cloning:< br / >
- git clone https://github.com/adarssssh/BharatFD.git < br / >
-2. Install virtual env :< br / >
-  python -m venv venv< br / >
-  source venv/bin/activate< br / >
-3.Installing dependencies:< br / >
-  pip install -r requirements.txt< br / >
-4. Database setup:< br / >
-  python manage.py makemigrations< br / >
-  python manage.py migrate< br / >
-5. Run the application:< br / >
-  python manage.py runserver< br / >
+1.Cloning
+ git clone https://github.com/adarssssh/BharatFD.git 
+ ##
+ 
+2.Install virtual env : 
+  python -m venv venv
+  source venv/bin/activate
+##
+3.Installing dependencies : 
+  pip install -r requirements.txt
+##
+4. Database setup :
+  python manage.py makemigrations
+  python manage.py migrate
+##
+5. Run the application : 
+  python manage.py runserver
+##
 
 
 API Usage:
